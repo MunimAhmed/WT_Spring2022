@@ -2,7 +2,7 @@
 <body>
     <h1> Registration Form </h1> <hr>
     
-<form action="/action_page.php">\
+<form action="Regresult.php" method="post">
 <table>
 <tr>
 <td> First Name : </td>
@@ -18,15 +18,15 @@
 </tr>
 <tr>
 <td> Designation: </td>
-<td> <input type="radio" name="desigation">Junior Programmar
-<input type="radio" name="desigation">Senior Programmar
-<input type="radio" name="desigation">Project Lead </td>
+<td> <input type="radio" name="desigation" value="Junior Programmar">Junior Programmar
+<input type="radio" name="desigation" value="Senior Programmar">Senior Programmar
+<input type="radio" name="desigation" value="Project Lead">Project Lead </td>
 </tr>
 <tr>
 <td> Preferred Language: </td>
-<td> <input type = "checkbox" id="plng">JAVA
-<input type = "checkbox" id="plng">PHP
-<input type = "checkbox" id="plng">C++ </td>
+<td> <input type = "checkbox" id="plng" value="JAVA">JAVA
+<input type = "checkbox" id="plng" value="PHP">PHP
+<input type = "checkbox" id="plng" value="C++">C++ </td>
 </tr>
 <tr>
 <td> Email : </td>
@@ -34,7 +34,7 @@
 </tr>
 <tr>
 <td> Password : </td>
-<td> <input type = "password" name= "Email" > </td>
+<td> <input type = "password" name= "password" > </td>
 </tr>
 <tr>
 <td> Please choose a file </td>
