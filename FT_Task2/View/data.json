@@ -1,0 +1,22 @@
+[
+    {
+        "firstName": "Munim",
+        "lastName": "Ahmed",
+        "age": "23",
+        "designation": "Senior Programmar",
+        "programming language": "  JAVA  PHP  C++",
+        "email": "munim.ah015@gmail.com",
+        "password": "munim1234",
+        "filename": "IMG_1050.jpg"
+    },
+    {
+        "firstName": "Munim",
+        "lastName": "Ahmed",
+        "age": "23",
+        "designation": "Senior Programmar",
+        "programming language": "  JAVA  PHP  C++",
+        "email": "munim.ah018@gmail.com",
+        "password": "munim123",
+        "filename": "IMG_1050.jpg"
+    }
+]
